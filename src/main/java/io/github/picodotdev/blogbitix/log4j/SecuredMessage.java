@@ -1,5 +1,3 @@
-package io.github.picodotdev.blogbitix.log4j;
-
 import org.apache.logging.log4j.message.Message;
 
 import java.util.Collection;
@@ -25,22 +23,22 @@ public class SecuredMessage implements Message {
         this.pattern = compilePatterns(patterns);
     }
 
-    @Override
+
     public String getFormat() {
         return null;
     }
 
-    @Override
+
     public Object[] getParameters() {
         return null;
     }
 
-    @Override
+
     public String getFormattedMessage() {
         return securedMessage();
     }
 
-    @Override
+
     public Throwable getThrowable() {
         return null;
     }

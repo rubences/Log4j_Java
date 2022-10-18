@@ -1,5 +1,3 @@
-package io.github.picodotdev.blogbitix.log4j;
-
 public class Product {
 
     private Long id;
